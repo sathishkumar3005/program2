@@ -10,6 +10,4 @@ CONSTRAINT FK_Student_Department
 FOREIGN KEY (DepartmentID)
 REFERENCES Department(DepartmentID)
 );
-DESC Student;
-DROP TABLE Student;
 
